@@ -12,6 +12,9 @@ puts (8.even?)?'8 is even':'8 is not even'
 puts (1.even?)?'1 is even':'1 is not even'
 puts (2.odd?)?'2 is odd':'2 is not odd'
 
+# Between
+puts 2.between?(1,3)
+
 # Also we can convert
 puts 100.to_f # To float
 puts 5.5.to_i # To integer
