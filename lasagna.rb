@@ -1,5 +1,6 @@
 # This is my first exercise from Exercism
 class Lasagna
+  # Better constants over just numbers
   EXPECTED_MINUTES_IN_OVEN = 40
   PREPARATION_TIME_PER_LAYER = 2
 
@@ -16,5 +17,6 @@ class Lasagna
   end
 end
 
+# My first class in Ruby ;')
 lasagna = Lasagna.new
 puts lasagna.total_time_in_minutes(number_of_layers:5, actual_minutes_in_oven:30)
