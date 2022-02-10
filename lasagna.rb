@@ -1,3 +1,4 @@
+# This is my first exercise from Exercism
 class Lasagna
   EXPECTED_MINUTES_IN_OVEN = 40
   PREPARATION_TIME_PER_LAYER = 2
