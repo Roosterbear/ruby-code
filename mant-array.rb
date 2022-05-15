@@ -3,11 +3,14 @@ my_array = [2,3,4,5]
 
 # Adding elements
 my_array.unshift(1)
+puts my_array
+puts '---'
 
 # Deleting first element
 my_array.shift
-
 puts my_array
+
+
 
 puts "--- Let's add another array..."
 

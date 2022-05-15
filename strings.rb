@@ -24,7 +24,7 @@ puts "Supercalifragilisticoespialidoso".length
 puts "!!lacilobaid".reverse
 
 # Substituiting
-# @ Just irst match
+# @ Just first match
 puts "Hello Yellow Pill".sub("l","7")
 # @ Any match
 puts "Hello Yellow Pill".gsub("l","7")
